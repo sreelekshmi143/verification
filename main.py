@@ -228,7 +228,6 @@ async def shp_cb_handler(c: Client, cb: CallbackQuery):
             from_chat_id=bot_dustbin,
             message_ids=msg_id
         )
- await cb.answer()
 
 @baboon.on_callback_query(filters.regex('^apc.*'))
 async def apc_cb_handler(c: Client, cb: CallbackQuery):
