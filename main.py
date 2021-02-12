@@ -172,13 +172,13 @@ async def hide_pictures_handler(c: Client, m: Message):
                 [
                     InlineKeyboardButton(
                         text=f"{emoji.FRAMED_PICTURE} Show me the Photo.",
-                        callback_data=f"shp_{hid_message.message_id}"
+                        callback_data=f"shp_{msg.message_id}"
                     )
                 ],
                 [
                     InlineKeyboardButton(
                         text=f"{emoji.FRAMED_PICTURE} Add the Photo to Chat.",
-                        callback_data=f"apc_{hid_message.message_id}_{m.chat.id}"
+                        callback_data=f"apc_{msg.message_id}_{m.chat.id}"
                     )
                 ]
             ]
