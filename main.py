@@ -157,7 +157,7 @@ async def on_new_chat_members(c: Client, m: Message):
     await check_resolved(cap_message)
 
 
-@baboon.on_message(filters.video | filters.photo, group=3)
+@baboon.on_message(filters.photo, group=3)
 async def hide_pictures_handler(c: Client, m: Message):
     hid_message = await m.forward(
         chat_id=bot_dustbin
