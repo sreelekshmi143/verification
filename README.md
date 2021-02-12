@@ -3,7 +3,7 @@ A telegram bot that requires new joiners to a chat group to be verified by issui
 
 [Youtube Playlist](https://www.youtube.com/watch?v=Ze-QLZh53I0&list=PLApP3aDELGhtM6Zb7VF4jiO4T4hw99G1n)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sreelekshmi143/verification)
 
 ## Cloning and Run:
 1. `git clone https://github.com/eyaadh/baboonCaptcha.git`, to clone the repository.
